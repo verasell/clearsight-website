@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clearsight — Customer Insights for High-Stakes Decisions</title>
+<meta name="description" content="Clearsight helps innovation and marketing teams replace assumptions with evidence. Voice of Customer research and structured validation for high-stakes product, positioning, and go-to-market decisions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" onclick="showPage('home')">
+      <img src="assets/images/logo-no-marketing.svg" alt="Clearsight">
+    </a>
+    <div class="nav-links">
+      <a onclick="showPage('home')">Home</a>
+      <a onclick="showPage('about')">About</a>
+      <a onclick="showPage('privacy')">Privacy</a>
+    </div>
+  </div>
+</nav>
+
+<!-- =====================================================
+     HOME PAGE
+     ===================================================== -->
+<main id="page-home" class="page active">
+
+  <!-- HERO (v5 locked composition - the only place with the large C) -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <div class="eyebrow">Voice of Customer · Validation Consulting</div>
+        <h1 class="hero-title">Customer Insights for <span class="highlight">High-Stakes Decisions.</span></h1>
+        <p class="hero-sub">We help <strong>innovation and marketing teams</strong> replace assumptions with evidence, so your most important product, positioning, and go-to-market decisions are grounded in real customer insight.</p>
+        <div class="btn-row">
+          <a href="https://calendly.com/d/mzhv-hw28/yv-25" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Book a discovery call
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a class="btn btn-secondary" onclick="document.getElementById('approach').scrollIntoView({behavior:'smooth'})">See how we work</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg">
+          <!-- LARGE PALE BLUE C-SHAPE (signature, only on this hero) -->
+          <path d="M 540 80 A 260 260 0 1 0 540 440"
+                stroke="#0096D2" stroke-width="95" stroke-linecap="round" fill="none" opacity="0.18"/>
+          <path d="M 460 130 A 195 195 0 1 0 460 390"
+                stroke="#0096D2" stroke-width="3" fill="none" opacity="0.30"/>
+          <!-- Logo mark inside the C -->
+          <g transform="translate(225, 175) scale(1.15)">
+            <path d="M5.72,24.55L47.02,.8c1.85-1.06,4.12-1.06,5.97,0l94.27,54.43c5.43,3.14,5.42,10.98-.01,14.1l-40.78,23.45c-1.85,1.06,-4.12,1.06,-5.97,0L5.71,38.05c-5.2-3-5.19-10.51,.01-13.5Z" fill="#82C814"/>
+            <path d="M46.92,.81L3.74,25.84C1.43,27.18,0,29.65,0,32.33v122.93C0,156.42,1.25,157.14,2.25,156.56l50.67-29.37c1.85-1.07,2.98-3.04,2.98-5.17V5.99c0-4.61-4.99-7.48-8.98-5.17Z" fill="#0096D2"/>
+            <path d="M147.25,117.83l-40.78-23.45c-1.85-1.06-4.12-1.06-5.97,0L2.99,150.69c-3.99,2.3-3.99,8.07,0,10.36l44.02,25.32c1.85,1.06,4.12,1.06,5.97,0l94.27-54.43c5.43-3.14,5.42-10.98-.01-14.1Z" fill="#FA8250"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHERE WE START (carries the single subtle corner C for this + next section) -->
+  <section class="section alt">
+    <!-- Subtle pale C in top-right corner (the ONLY subtle C accent on the homepage) -->
+    <div class="corner-c" style="top: 60px; right: -80px; width: 280px; height: 280px;" aria-hidden="true">
+      <svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 280 40 A 140 140 0 1 0 280 240"
+              stroke="#0096D2" stroke-width="44" stroke-linecap="round" fill="none" opacity="0.08"/>
+      </svg>
+    </div>
+
+    <div class="section-inner">
+      <div class="section-eyebrow">Where we start</div>
+      <h2 class="section-title">Start with the problem, not the solution.</h2>
+      <p class="section-intro">It is tempting to start with a solution. After all, most innovation efforts begin with an idea of what we want to build. But starting with the solution often leads teams to solve the wrong problem. Instead, we start with the problem, not the solution.</p>
+
+      <div class="where-art">
+        <img src="assets/images/problem-solution-diagram.png" alt="Problem versus Solution diagram showing We Guess on the left moving to We Know on the right">
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE ADD VALUE (clean, no corner C here since the adjacent section has one) -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-eyebrow">How we add value</div>
+      <h2 class="section-title">Six places where evidence outperforms instinct.</h2>
+      <p class="section-intro">Customer validation is most valuable when organizations are making important product, positioning, or go-to-market decisions and need a deeper understanding of customer needs <span class="highlight">before moving forward</span>.</p>
+
+      <div class="value-image-wrap">
+        <img src="assets/images/how-we-add-value.png" alt="Six places where Clearsight adds value">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF BAND — industries primary, track record supporting -->
+  <section class="proof">
+    <div class="proof-inner">
+      <div class="proof-eyebrow">Industries we serve</div>
+      <div class="industry-pills">
+        <span class="industry-pill">MedTech</span>
+        <span class="industry-pill">Test &amp; Measurement</span>
+        <span class="industry-pill">Energy &amp; CleanTech</span>
+        <span class="industry-pill">Universities &amp; Research</span>
+        <span class="industry-pill">Innovation Teams</span>
+      </div>
+      <div class="proof-divider-h"></div>
+      <div class="proof-track">
+        <span class="track-label">Track record since 2021</span>
+        <span class="track-divider">·</span>
+        <span class="track-metrics"><strong>20+</strong> projects · <strong>12</strong> clients · <strong>3</strong> continents</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK -->
+  <section id="approach" class="section alt">
+    <div class="section-inner">
+      <div class="section-eyebrow">Our approach</div>
+      <h2 class="section-title">A three-phase customer validation framework.</h2>
+      <p class="section-intro">Engagements typically follow a structured customer validation framework. We start at the start with the <span class="highlight">Definition Phase</span>, identifying the highest-risk assumptions and what needs to be learned. During <span class="highlight">Problem Discovery</span>, we conduct in-depth interviews to uncover pain points, goals, and workarounds. In the third phase, <span class="highlight">Solution Testing</span>, we develop low-fidelity prototypes or stimulus material and test them with real customers. We guide teams through solution-storming to explore approaches and refine ideas based on what we learn.</p>
+
+      <div class="framework-image-wrap">
+        <img src="assets/images/phase-cards.png" alt="The three phases of the Clearsight framework: Definition Phase, Problem Discovery, and Solution Testing">
+      </div>
+
+      <div class="framework-quotes">
+        <div class="fw-quote">
+          <span class="step-marker">01</span>
+          <p>&ldquo;If we have data, let&rsquo;s look at data. If all we have are opinions, let&rsquo;s go with mine.&rdquo;</p>
+          <cite>— Jim Barksdale</cite>
+        </div>
+        <div class="fw-quote">
+          <span class="step-marker">02</span>
+          <p>&ldquo;There are no facts inside the building, so get the heck outside.&rdquo;</p>
+          <cite>— Steve Blank</cite>
+        </div>
+        <div class="fw-quote">
+          <span class="step-marker">03</span>
+          <p>&ldquo;The only way to win is to learn faster than anyone else.&rdquo;</p>
+          <cite>— Eric Ries</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND (home) -->
+  <section class="cta-band">
+    <div class="cta-band-inner">
+      <div>
+        <h2>Bring evidence to your next high-stakes decision.</h2>
+        <p>In a 30-minute discovery call, we will discuss the decision you are facing, the assumptions that need testing, and whether structured Voice of Customer research is the right next step.</p>
+      </div>
+      <div class="cta-justify-end">
+        <a href="https://calendly.com/d/mzhv-hw28/yv-25" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Book a discovery call
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- =====================================================
+     ABOUT PAGE
+     ===================================================== -->
+<main id="page-about" class="page">
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <!-- Quiet small C in top-right corner (lighter than homepage hero) -->
+    <div class="corner-c" style="top: 30px; right: -100px; width: 380px; height: 380px;" aria-hidden="true">
+      <svg viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 380 60 A 180 180 0 1 0 380 320"
+              stroke="#0096D2" stroke-width="58" stroke-linecap="round" fill="none" opacity="0.10"/>
+        <path d="M 320 100 A 140 140 0 1 0 320 280"
+              stroke="#0096D2" stroke-width="2" fill="none" opacity="0.18"/>
+      </svg>
+    </div>
+
+    <div class="section-inner">
+      <div class="section-eyebrow">About</div>
+      <h2 class="section-title">A boutique research and validation firm.</h2>
+      <div class="about-text">
+        <p>Clearsight is a boutique consulting firm focused on helping innovation and marketing teams make better product and strategy decisions through <span class="highlight">real customer insight</span>.</p>
+        <p>Since 2021, we have completed projects across the US, Europe, and Australia, working with organizations in healthcare, technology, and other innovation-driven industries. Our clients turn to us when the stakes are highest: launching new products, entering new markets, repositioning offerings, or making bet-the-roadmap decisions where assumption is too expensive a starting point.</p>
+        <p>Our work combines structured Voice of Customer research with practical experience in product development, marketing strategy, and innovation leadership. We are a research partner, not a survey vendor — we bring strategic implications to every finding.</p>
+      </div>
+
+      <div class="about-meta">
+        <div class="about-meta-item">
+          <div class="label">Founded</div>
+          <div class="value">2021</div>
+        </div>
+        <div class="about-meta-item">
+          <div class="label">Continents</div>
+          <div class="value">3</div>
+        </div>
+        <div class="about-meta-item">
+          <div class="label">Industries</div>
+          <div class="value">MedTech · Test &amp; Measurement · Energy &amp; CleanTech · Universities &amp; Research</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE WORK — light bridge panel between intro and founder cards -->
+  <section class="how-we-work">
+    <div class="section-inner">
+      <div class="bridge-panel">
+        <div class="bridge-eyebrow">How we work</div>
+        <div class="bridge-points">
+          <div class="bridge-point">
+            <span class="bridge-dot bridge-dot-blue"></span>
+            <span class="bridge-text">Senior-led discovery</span>
+          </div>
+          <div class="bridge-point">
+            <span class="bridge-dot bridge-dot-green"></span>
+            <span class="bridge-text">Evidence before assumptions</span>
+          </div>
+          <div class="bridge-point">
+            <span class="bridge-dot bridge-dot-orange"></span>
+            <span class="bridge-text">Clear implications for strategy, product, and launch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founders -->
+  <section class="section alt">
+    <div class="section-inner">
+      <div class="section-eyebrow">The founders</div>
+      <h2 class="section-title">Two practitioners, one practice.</h2>
+      <p class="founders-bridge">Clearsight combines senior marketing, innovation, and customer discovery experience with hands-on research practice.</p>
+
+      <div class="founders">
+        <article class="founder">
+          <div class="founder-portrait">
+            <img src="assets/images/founder-yannick.jpg" alt="Yannick Claereboudt">
+          </div>
+          <div class="founder-body">
+            <div class="founder-name">
+              <span class="founder-name-mark"></span>
+              Yannick Claereboudt
+            </div>
+            <div class="founder-role">Co-founder</div>
+            <p>Yannick Claereboudt has spent her career bringing customer insight into the strategic decisions that shape product development, commercialization, and growth. Her perspective has been shaped by leadership roles across technology, life sciences, and medtech, working with product and services companies across the U.S. and Europe. Before founding Clearsight, Yannick was VP of Marketing for Invetech, a global product development organization headquartered in Melbourne, Australia. Her work centers on helping clients move from assumptions to evidence, validate problem-solution fit, sharpen strategy and positioning, and make stronger go-to-market decisions.</p>
+          </div>
+        </article>
+
+        <article class="founder">
+          <div class="founder-portrait">
+            <img src="assets/images/founder-vera.jpg" alt="Vera Sell">
+          </div>
+          <div class="founder-body">
+            <div class="founder-name">
+              <span class="founder-name-mark"></span>
+              Vera Sell
+            </div>
+            <div class="founder-role">Co-founder</div>
+            <p>Vera Sell is passionate about working with clients to validate problem-solution fit and build strong launch stories. Her belief in Voice of Customer research is a result of a decade working in corporate and startup development teams, Angel investments, and helping student teams succeed as Adjunct Professor at Portland State University. Learning to understand your customer better is a make or break skill for today&rsquo;s business leader. Her work centers on helping businesses cross the chasm between idea and scalable business model.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA (matches homepage wording) -->
+  <section class="cta-band">
+    <div class="cta-band-inner">
+      <div>
+        <h2>Bring evidence to your next high-stakes decision.</h2>
+        <p>In a 30-minute discovery call, we will discuss the decision you are facing, the assumptions that need testing, and whether structured Voice of Customer research is the right next step.</p>
+      </div>
+      <div class="cta-justify-end">
+        <a href="https://calendly.com/d/mzhv-hw28/yv-25" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Book a discovery call
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- =====================================================
+     PRIVACY PAGE (no changes)
+     ===================================================== -->
+<main id="page-privacy" class="page">
+  <section class="privacy-hero">
+    <div class="section-inner">
+      <h1>Privacy Policy</h1>
+      <div class="meta">This version effective March 5, 2026 · First effective March 3, 2026</div>
+    </div>
+  </section>
+
+  <section class="privacy-content">
+    <div class="privacy-layout">
+      <aside class="privacy-toc">
+        <h3>On this page</h3>
+        <ol>
+          <li><a href="#s1">Description of the business</a></li>
+          <li><a href="#s2">What personal data we process</a></li>
+          <li><a href="#s3">How we use personal data</a></li>
+          <li><a href="#s4">Lawful basis (GDPR)</a></li>
+          <li><a href="#s5">Data retention</a></li>
+          <li><a href="#s6">Data sharing</a></li>
+          <li><a href="#s7">International transfers</a></li>
+          <li><a href="#s8">Automated decision-making</a></li>
+          <li><a href="#s9">Your rights (EU/UK/CH)</a></li>
+          <li><a href="#s10">California residents</a></li>
+          <li><a href="#s11">Security statement</a></li>
+          <li><a href="#s12">Updates</a></li>
+        </ol>
+      </aside>
+
+      <div class="privacy-body">
+        <section id="s1">
+          <h2>1 · Description of the business</h2>
+          <p>Clearsight Marketing, LLC (&ldquo;Clearsight,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) is a Portland, Oregon based business consulting firm specializing in customer validation and go-to-market strategy.</p>
+          <p>For purposes of the EU General Data Protection Regulation (GDPR), Clearsight acts as a Data Controller, and in certain projects as a Joint Controller with its clients, with respect to qualitative research interview data. Clearsight does not recruit research participants directly. Participants are sourced by independent recruiting agencies or research panel providers operating under their own privacy policies.</p>
+          <p><strong>Privacy Officer:</strong> Vera Sell · <a href="mailto:vera@clearsight-marketing.com">vera@clearsight-marketing.com</a></p>
+        </section>
+
+        <section id="s2">
+          <h2>2 · What personal data we process</h2>
+          <p>In connection with qualitative research interviews, we may process the following categories of personal information:</p>
+          <ul>
+            <li>Professional or employment-related information voluntarily shared during interviews (job title, company type, role, experience).</li>
+            <li>Audio or visual information, including audio or video recordings of interviews (with consent).</li>
+            <li>Interview transcripts.</li>
+            <li>Research responses, project notes, and analytical summaries.</li>
+          </ul>
+          <p>We do not intentionally collect sensitive personal data. Participants are encouraged not to share it during interviews. We do not sell or share personal data.</p>
+          <p>Personal data may be obtained through the following sources:</p>
+          <ul>
+            <li>Screener questionnaire responses provided by the recruiting agency (which may include professional information as described above).</li>
+            <li>Audio or video recordings captured during interviews conducted via Zoom, with participant consent.</li>
+          </ul>
+          <p>Participants are encouraged not to share their name or other directly identifying personal information during interviews.</p>
+        </section>
+
+        <section id="s3">
+          <h2>3 · How we use personal data</h2>
+          <p>We use personal data solely to:</p>
+          <ul>
+            <li>Conduct qualitative research interviews.</li>
+            <li>Analyze research findings.</li>
+            <li>Prepare anonymized reports for clients.</li>
+            <li>Ensure research quality and internal benchmarking.</li>
+          </ul>
+          <p>Interview data is de-identified wherever possible. Client deliverables are anonymized unless explicit consent has been provided.</p>
+        </section>
+
+        <section id="s4">
+          <h2>4 · Lawful basis for processing (GDPR)</h2>
+          <p>Where GDPR applies, we rely on one or more of the following lawful bases, depending on the activity:</p>
+          <ul>
+            <li><strong>Contract (Article 6(1)(b)):</strong> to schedule and conduct interviews and deliver research services.</li>
+            <li><strong>Legitimate Interests (Article 6(1)(f)):</strong> to conduct B2B research, analyze findings, and improve research quality, with data minimization and de-identification where feasible.</li>
+            <li><strong>Consent (Article 6(1)(a)):</strong> for audio or video recording and other optional uses described at the time of collection.</li>
+          </ul>
+          <p>Participants may withdraw consent at any time. Where processing is based on legitimate interests, participants also have the right to object to this processing at any time.</p>
+        </section>
+
+        <section id="s5">
+          <h2>5 · Data retention</h2>
+          <ul>
+            <li>Interview recordings are deleted within 90 days of project completion.</li>
+            <li>Transcripts and anonymized analytical materials may be retained for up to two years for research quality and benchmarking purposes.</li>
+            <li>Data is securely deleted or irreversibly anonymized after the applicable retention period.</li>
+          </ul>
+        </section>
+
+        <section id="s6">
+          <h2>6 · Data sharing</h2>
+          <ul>
+            <li>We may share anonymized research findings with clients.</li>
+            <li>We may use trusted service providers (secure cloud storage, AI-assisted transcription software, video conferencing platforms such as Zoom) under appropriate contractual safeguards.</li>
+            <li>We do not sell or share personal data.</li>
+          </ul>
+        </section>
+
+        <section id="s7">
+          <h2>7 · International transfers</h2>
+          <p>Clearsight is based in the United States. Where personal data of individuals in the EU, UK, or Switzerland is processed in the United States, we rely on: Standard Contractual Clauses (SCCs) and, where applicable, the UK Addendum or UK IDTA. Where data has been anonymized such that it no longer constitutes personal data, transfer restrictions do not apply. You may request information about applicable transfer safeguards by contacting us.</p>
+        </section>
+
+        <section id="s8">
+          <h2>8 · Automated decision-making</h2>
+          <p>Clearsight does not use automated decision-making or profiling that produces legal or similarly significant effects.</p>
+        </section>
+
+        <section id="s9">
+          <h2>9 · Your rights (EU / UK / Switzerland)</h2>
+          <p>Where GDPR applies, you have the right to:</p>
+          <ul>
+            <li>Access your personal data.</li>
+            <li>Request correction of inaccurate data.</li>
+            <li>Request deletion of your data.</li>
+            <li>Restrict processing in certain circumstances.</li>
+            <li>Object to processing based on legitimate interests.</li>
+            <li>Request a portable copy of your personal data (where applicable).</li>
+            <li>Withdraw consent at any time.</li>
+            <li>Lodge a complaint with your local supervisory authority.</li>
+          </ul>
+          <p>To exercise your rights, contact: <a href="mailto:vera@clearsight-marketing.com">vera@clearsight-marketing.com</a>. We will respond within 30 days.</p>
+        </section>
+
+        <section id="s10">
+          <h2>10 · California residents (CCPA / CPRA)</h2>
+          <p>If you are a California resident, you have the right to:</p>
+          <ul>
+            <li>Know what categories of personal information we collect (see Section 2 for a description of the categories we process).</li>
+            <li>Request deletion of your personal information.</li>
+            <li>Correct inaccurate personal information.</li>
+            <li>Receive equal service and pricing when exercising your rights.</li>
+            <li>Clearsight does not sell or share personal information.</li>
+          </ul>
+          <p>To exercise your rights, contact: <a href="mailto:vera@clearsight-marketing.com">vera@clearsight-marketing.com</a>. We will respond within 30 days.</p>
+        </section>
+
+        <section id="s11">
+          <h2>11 · Security statement</h2>
+          <p>Clearsight uses reasonable technical and organizational measures to protect personal data against unauthorized access, loss, or disclosure. Access to research data is limited to Clearsight personnel involved in the relevant project.</p>
+        </section>
+
+        <section id="s12">
+          <h2>12 · Updates</h2>
+          <p>We may update this privacy notice from time to time. The &ldquo;Effective Date&rdquo; above indicates when it was last updated.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" onclick="showPage('home')">
+          <img src="assets/images/logo-no-marketing-white.svg" alt="Clearsight">
+        </a>
+        <p>Customer insight for high-stakes product, positioning, and go-to-market decisions.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <a onclick="showPage('home')">Home</a>
+        <a onclick="showPage('about')">About</a>
+        <a onclick="showPage('privacy')">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:info@clearsight-marketing.com">info@clearsight-marketing.com</a>
+        <p>Clearsight Marketing, LLC<br>1625 NW Foley Court<br>Portland, OR 97229</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Clearsight Marketing, LLC · Confidential</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/clearsightmarketing/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

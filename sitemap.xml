@@ -4,12 +4,4 @@
     <loc>https://clearsight-marketing.com/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://clearsight-marketing.com/#about</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://clearsight-marketing.com/#privacy</loc>
-    <priority>0.5</priority>
-  </url>
 </urlset>
